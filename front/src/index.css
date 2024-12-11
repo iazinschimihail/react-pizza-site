@@ -1,0 +1,11 @@
+
+*, body{
+  margin: 0;
+  padding: 0 ;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  text-rendering: auto;
+  color: red;
+}
