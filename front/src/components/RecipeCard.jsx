@@ -36,7 +36,13 @@ const RecipeCard = ({ title, author, rating, image }) => {
           height: isMobile ? '130px' : '250px'
         }} image={backIMG} alt={title} />
       <Box>
-      <CardContent sx={{alignItems: "center ", display:'flex', flexDirection: "column", justifyContent:"center", textAlign:"center"}}>
+      <CardContent sx={{
+        alignItems: "center ", 
+        display:'flex', 
+        flexDirection: "column", 
+        justifyContent:"center", 
+        textAlign:"center"
+        }}>
         <Typography variant="h5" gutterBottom sx={{fontSize: "20px !important"}}>
           {title}
         </Typography>

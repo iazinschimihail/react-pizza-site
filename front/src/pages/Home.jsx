@@ -9,6 +9,8 @@ import bigLogo from "../Group 90.png"
 import { Box } from '@mui/material';
 import backIMG from "../mes.png"
 import { useTheme } from '@mui/material/styles';
+import ContactForm from '../components/ContactForm';
+import Footer from '../components/Footer';
 
 const Home = () => {
   const dispatch = useDispatch();
@@ -65,7 +67,10 @@ const Home = () => {
         />
         </Box>
       )}
+
       {loading ? <p>Loading...</p> : <RecipeList recipes={recipes} />}
+      <ContactForm/>
+      <Footer/>
     </div>
   );
 };

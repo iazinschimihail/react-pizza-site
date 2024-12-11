@@ -15,7 +15,7 @@ const RecipeList = ({ recipes }) => {
     const isMobile = useMediaQuery(theme.breakpoints.down('md'));
 
   return (
-    <Box sx={{backgroundColor: "#00236D", height: !isMobile ? 464 : 230, alignItems: "center", display:"flex", flexDirection: "column", justifyContent: "center"}}>
+    <Box sx={{backgroundColor: "#00236D", height: !isMobile ? 464 : 300, alignItems: "center", display:"flex", flexDirection: "column", justifyContent: "center"}}>
         <Typography variant="h3" sx={{color: "white", paddingBottom: "40px"}}>Top rated recipes</Typography>
         <div>
             {isMobile ? (
